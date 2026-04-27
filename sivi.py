@@ -1,5 +1,4 @@
 """
-sim.py
 ------
 AIOps-based intelligent auto-remediation prototype.
 

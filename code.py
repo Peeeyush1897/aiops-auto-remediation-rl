@@ -5,9 +5,6 @@ AIOps-based intelligent auto-remediation prototype.
 Pipeline:
     simulate data  ->  LSTM prediction  ->  DBSCAN anomaly detection
     ->  Q-learning remediation policy  ->  action dispatch
-
-Author note: this is a research prototype, not production code.
-             docker/k8s hooks are stubbed out in take_action().
 """
 
 import logging
